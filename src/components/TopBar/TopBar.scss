@@ -1,0 +1,44 @@
+@import '../../styles/variables.scss';
+
+.topbar {
+	height: 53px;
+	width: 100%;
+
+	&__shadow {
+		box-shadow: 0px 1px 5px rgba(0, 0, 0, 0.25);
+	}
+
+	&__bg {
+		&--1 {
+			background-color: $tertiary;
+		}
+
+		&--2 {
+			background-color: $eighth;
+		}
+
+		&--none {
+			background-color: transparent;
+		}
+	}
+
+	&--banner {
+		height: 160px;
+	}
+
+	.back-arrow-btn {
+		margin-top: 3px;
+		margin-left: 16px;
+	}
+
+	.text-container-with-arrow {
+		margin-top: 5px;
+		margin-left: -2px;
+	}
+
+	.text-container-not-arrow {
+		// background-color: red;
+		margin-top: 5px;
+		margin-left: 20px;
+	}
+}

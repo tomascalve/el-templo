@@ -1,0 +1,41 @@
+@import '../../styles/variables';
+
+.label {
+	cursor: pointer;
+
+	&-stylesButtonRadio {
+
+		&--1 {
+			border-radius: 20px 0px 0px 20px;
+			background-color: $tertiary;
+			color: $nineth;
+			font-size: 84%;
+			padding: 5px 0px;
+		}
+
+		&--2 {
+			background-color: $tertiary;
+			color: $nineth;
+			font-size: 84%;
+			font-family: $font-1;
+			padding: 5px 0px;
+		}
+
+		&--3 {
+			background-color: $tertiary;
+			border-radius: 0px 20px 20px 0px;
+			color: $nineth;
+			font-size: 84%;
+			font-family: $font-1;
+			padding: 5px 0px;
+
+		}
+	}
+}
+
+.btn-check:checked+.btn-all,
+.btn-all:checked {
+	background-color: $thirteenth;
+	box-shadow: inset 0px 4px 4px rgba(0, 0, 0, 0.25);
+	color: $tertiary;
+}

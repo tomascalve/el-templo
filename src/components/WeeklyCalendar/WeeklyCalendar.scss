@@ -1,0 +1,15 @@
+@import '../../styles/variables.scss';
+
+.mainContainer {
+	background-color: $primary;
+
+	height: 153px;
+
+	.textContainer {
+		padding-top: 18px;
+	}
+
+	.daysContainer {
+		margin-top: 20px;
+	}
+}

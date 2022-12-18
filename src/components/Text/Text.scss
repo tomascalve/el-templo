@@ -1,0 +1,101 @@
+@import '../../styles/variables.scss';
+
+.text {
+	&__font {
+		&--1 {
+			font-family: $font-1;
+		}
+
+		&--2 {
+			font-family: $font-3;
+			letter-spacing: 3px;
+		}
+	}
+
+	&--bold {
+		font-weight: bold;
+	}
+
+	&--underline {
+		text-decoration: underline;
+		text-underline-offset: 24%;
+	}
+
+	&__size {
+		&--1 {
+			font-size: 0.706rem;
+		}
+
+		&--2 {
+			font-size: 0.98rem;
+		}
+
+		&--3 {
+			font-size: 1.1rem;
+		}
+
+		&--4 {
+			font-size: 1.4rem;
+		}
+
+		&--5 {
+			font-size: 2.4rem;
+		}
+
+		&--6 {
+			font-size: 2.3rem;
+			letter-spacing: 0px;
+		}
+	}
+
+	&__color {
+		&--1 {
+			color: $sixth;
+		}
+
+		&--2 {
+			color: $eighth;
+		}
+
+		&--3 {
+			color: $fifth;
+		}
+
+		&--4 {
+			color: $fourth;
+		}
+
+		&--5 {
+			color: $tertiary;
+		}
+
+		&--6 {
+			color: $nineth;
+		}
+
+		&--link {
+			color: #0d6efd;
+			cursor: pointer;
+			text-shadow: 0px 0px 10px rgba(0, 0, 0, 0.753);
+		}
+
+		&--link-selected {
+			color: $sixteenth;
+			cursor: pointer;
+			text-shadow: 0px 0px 10px rgba(0, 0, 0, 0.753);
+		}
+
+		&--error {
+			color: red;
+		}
+
+		&--done {
+			color: $green;
+		}
+	}
+
+}
+
+.cursor-pointer {
+	cursor: pointer;
+}

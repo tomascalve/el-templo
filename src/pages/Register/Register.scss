@@ -1,0 +1,35 @@
+@import '../../styles/variables';
+
+.base-img2 {
+	width: 5rem;
+	height: 5rem;
+	border-radius: 1000px;
+
+	&--small {
+		width: 3.85rem;
+		height: 3.85rem;
+		border-radius: 1000px;
+	}
+}
+
+.name-lasName-container {
+	margin-top: 37px;
+}
+
+.input-sex {
+	margin-top: 28px;
+}
+
+.email-pass-country-birthday {
+	margin-top: 26px;
+}
+
+.password-2 {
+	margin-top: -8px;
+	margin-bottom: 8px;
+	cursor: pointer;
+}
+
+.input-country {
+	margin-bottom: 8px;
+}

@@ -1,0 +1,71 @@
+@import '../../../styles/variables.scss';
+
+.showing-inputs {
+	margin-top: 56px;
+
+	.goal-field {
+		display: flex;
+		justify-content: space-between;
+		align-items: center;
+
+		background-color: $nineth;
+		height: 40px;
+
+		border-radius: 15px;
+		box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.2);
+
+		margin: 4px;
+
+		// El texto no puede ser seleccionado.
+		-webkit-touch-callout: none;
+		-webkit-user-select: none;
+		-khtml-user-select: none;
+		-moz-user-select: none;
+		-ms-user-select: none;
+		user-select: none;
+
+		.numbers {
+			color: $tertiary;
+
+			font-weight: 500;
+			font-size: 16px;
+
+			margin: 4px 5px 5px 20px;
+
+			text-align: start;
+		}
+
+		.goals {
+			color: $sixth;
+			font-size: 20px;
+
+			margin: 4px 5px 5px 20px;
+
+			text-align: start;
+		}
+
+		.crossIcon {
+			margin-right: 55px;
+			margin-bottom: 3px;
+		}
+		.crossIcon1 {
+			margin-right: 52px;
+		}
+	}
+}
+
+.selectable-goals {
+	.goals-tags {
+		background-color: $tertiary;
+		color: $nineth;
+
+		border-radius: 15px;
+
+		padding: 5px 20px;
+		margin: 5px;
+
+		border: none;
+	}
+}
+// .mainGoals__btnPag--container {
+// }

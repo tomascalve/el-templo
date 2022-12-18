@@ -1,0 +1,36 @@
+@import '../../styles/variables';
+
+.level-container {
+  height: 131px;
+  margin-left: -40px;
+
+  .image-container {
+    z-index: 2;
+    position: relative;
+    left: 4px;
+    bottom: 3px;
+  }
+
+  .text-over-level-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-end;
+
+
+    .text-experience-percent {
+      position: relative;
+      top: 7px;
+      left: 26px;
+    }
+  }
+
+  .text-under-level-container {
+    margin-top: 2px;
+  }
+}
+
+.colored {
+  background: linear-gradient(90deg, #2E4F77 45.81%, rgba(0, 0, 0, 0) 100%);
+  background-color: white;
+  height: 10px;
+}

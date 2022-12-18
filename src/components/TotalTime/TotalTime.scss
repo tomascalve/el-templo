@@ -1,0 +1,16 @@
+@import '../../styles/variables.scss';
+
+.totalTime__container {
+	background-color: $sixteenth;
+	border-radius: 100%;
+	width: 79px;
+	height: 79px;
+
+	.first__text {
+		margin-bottom: -5px;
+	}
+
+	.number__text {
+		margin-top: -3px;
+	}
+}

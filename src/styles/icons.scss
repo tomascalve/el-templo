@@ -1,0 +1,10 @@
+@import './variables.scss';
+
+.stroke__color {
+    &--1 {
+        stroke: $tertiary;
+    }
+    &--2 {
+        stroke: $eighth;
+    }
+}

@@ -1,0 +1,27 @@
+@import '../../styles/variables.scss';
+
+.input-selector {
+	&__select {
+		-webkit-appearance: none;
+		-moz-appearance: none;
+		-ms-appearance: none;
+		background: $nineth;
+		height: 40px;
+		border: none;
+		text-indent: 5%;
+		color: $seventh;
+		border-radius: 15px;
+		outline: none;
+	}
+}
+
+.input-select-custom {
+	height: 40px;
+	outline: none;
+	border: none;
+	background-color: transparent !important;
+	margin-left: 10px;
+	width: 94%;
+	color: $seventh;
+	cursor: pointer;
+}

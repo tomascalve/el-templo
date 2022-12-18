@@ -1,0 +1,76 @@
+@import '../../styles/variables.scss';
+
+.button {
+	height: 40px;
+	border: 0;
+	background-color: transparent;
+
+	&:not(.button-color--4) {
+		border-radius: 15px;
+	}
+
+	&:not(.button-color--3):not(.button-color--4) {
+		box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+	}
+
+	&-circle {
+		height: 50px;
+		width: 50px;
+		border-radius: 100px !important;
+	}
+
+	&-color {
+		&--1 {
+			background-color: $tertiary;
+		}
+
+		&--2 {
+			border: 2px solid $tertiary;
+			background-color: $nineth;
+
+		}
+
+		// &--3 {
+		// }
+		&--4 {
+			background-color: $nineth;
+			border: 2px solid #ccc;
+			border-left: none;
+			border-right: none;
+			display: flex;
+			align-items: center;
+			height: 55px;
+			padding-left: 30px;
+		}
+
+
+
+		&--5 {
+			border: 2px solid rgba(219, 17, 17, 0.534);
+			background-color: rgba(202, 19, 19, 0.24);
+		}
+
+		&--6 {
+			border: 2px solid rgba(91, 219, 17, 0.534);
+			background-color: rgba(86, 202, 19, 0.24);
+		}
+	}
+
+}
+
+.logOut-btn-fix {
+	border-top: none;
+}
+
+.btn-white {
+	height: 56px;
+}
+
+button:disabled,
+button[disabled] {
+	// border: 1px solid #999999;
+	&:not(.button-color--3){
+		background-color: #cccccc;
+		color: #666666;
+	}
+}

@@ -1,0 +1,12 @@
+@import '../../styles/variables.scss';
+
+.container {
+	height: auto;
+	padding: 0;
+	.textAreaContainer {
+		padding: 20px;
+	}
+	.textArea {
+		padding: 20px;
+	}
+}

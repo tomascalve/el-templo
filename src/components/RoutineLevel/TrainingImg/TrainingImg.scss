@@ -1,0 +1,19 @@
+@import '../../../styles/variables.scss';
+
+.training-img {
+    &-container {
+        // border: 1px solid #000;
+        // border-radius: 15px;
+        &--active {
+            background-color: $tertiary;
+        }
+        &--done {
+            background-color: $tertiary;
+
+        }
+        &--disabled {
+            
+            background-color: $tertiary;
+        }
+    }
+}

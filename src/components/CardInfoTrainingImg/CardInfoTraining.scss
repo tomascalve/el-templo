@@ -1,0 +1,13 @@
+@import '../../styles/variables.scss';
+
+.card-info-training {
+    &--done {
+        background-color: rgb(206, 212, 218);
+    }
+    &--disabled {
+        background-color: rgb(206, 212, 218);
+    }
+    &--enabled {
+        background-color: $tertiary;
+    }
+}

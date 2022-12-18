@@ -1,0 +1,26 @@
+{
+	"short_name": "El Templo",
+	"name": "El Templo",
+	"icons": [
+		{
+			"src": "IconElTemplo.ico",
+			"sizes": "64x64 32x32 24x24 16x16",
+			"type": "image/x-icon"
+		},
+		{
+			"src": "IconElTemplo.png",
+			"type": "image/png",
+			"sizes": "192x192"
+		},
+		{
+			"src": "IconElTemplo.png",
+			"type": "image/png",
+			"sizes": "512x512"
+		}
+	],
+	"start_url": ".",
+	"display": "fullscreen",
+	"theme_color": "#15212D",
+	"background_color": "#293D55",
+	"scope": "/"
+}

@@ -1,0 +1,11 @@
+@import '../../styles/variables.scss';
+
+.adminBar__container {
+	height: 50px;
+	background-color: $tertiary;
+
+	border-radius: 0px 0px 25px 25px;
+	box-shadow: 0 3px 3px -1px $shadow025;
+
+	cursor: pointer;
+}

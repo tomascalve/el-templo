@@ -1,0 +1,31 @@
+@import '../../styles/variables';
+
+.boxcontainer {
+  height: 10px;
+  // border: 1px solid white;
+  border-radius: 20px;
+  box-shadow: $shadow310;
+}
+
+.progress-summary {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-top: 22px;
+  margin-bottom: 20px;
+
+  .summary {
+    margin-left: 10px;
+    width: fit-content;
+  }
+
+  .see-details {
+    margin-right: 20px;
+    width: fit-content;
+    white-space: nowrap;
+  }
+}
+
+.body-info-container {
+  margin-top: 40px;
+}

@@ -1,0 +1,44 @@
+@import '../../styles/variables.scss';
+
+.dropDown__mainContainer {
+	// Make text unselectable
+	-webkit-user-select: none;
+	-moz-user-select: none;
+	-ms-user-select: none;
+	user-select: none;
+
+	.bar {
+		background-color: $tertiary;
+		color: $nineth;
+		text-indent: 24px;
+		height: 42px;
+		box-shadow: inset 0px -10px 5px -10px rgba(0, 0, 0, 0.3);
+	}
+	.arrow {
+		margin-right: 30px;
+	}
+	.arrow__unfolded {
+		margin-right: 5px;
+		transform: rotate(180deg);
+	}
+
+	.content-parent {
+		width: 100%;
+
+		height: 0px;
+		overflow: scroll;
+		transition: height 0.5s ease;
+		&--shadow {
+			box-shadow: 0 4px 5px -3px $shadow025;
+		}
+	}
+
+	.content {
+		width: 100%;
+		height: auto;
+		overflow: hidden;
+		padding: 25px;
+		line-height: 1.3;
+		transition: height 0.5s ease;
+	}
+}

@@ -1,0 +1,37 @@
+@import '../../styles/variables';
+
+.customBtnPagination {
+	background-color: $tertiary;
+	color: $nineth;
+
+	width: 40px;
+	height: 40px;
+
+	border: none;
+	border-radius: 10px;
+
+	padding: 12px 10px 12px 14px;
+}
+.customBtnPagination:hover {
+	background-color: $tertiary;
+	border: none;
+}
+
+.customDisabled {
+	background-color: $tertiary;
+	color: $nineth;
+
+	width: 40px;
+	height: 40px;
+
+	border-radius: 10px;
+
+	padding: 12px 4px 12px 14px;
+}
+
+.right {
+	transform: scaleX(1);
+}
+.left {
+	transform: scaleX(-1);
+}

@@ -1,0 +1,13 @@
+.routine-card {
+    &--main-container {
+        overflow-x: auto;
+        width: 100%;
+    }
+    &--container {
+        display: flex;
+        justify-content: space-evenly;
+        width: 500px;
+        margin: auto;
+    }
+
+}

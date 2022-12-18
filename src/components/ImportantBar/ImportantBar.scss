@@ -1,0 +1,10 @@
+@import '../../styles/variables';
+
+.importantBox {
+	height: fit-content;
+	min-height: 40px;
+	margin-top: 2px;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+}

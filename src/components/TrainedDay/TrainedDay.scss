@@ -1,0 +1,27 @@
+@import '../../styles/variables.scss';
+
+.pillContainer {
+	background-color: $tertiary;
+	height: 59px;
+	width: 37px;
+	border-radius: 100px;
+
+	padding-top: 2px;
+	padding-bottom: 6px;
+
+	margin: 0px 2px;
+	&--today {
+		border: 2px solid $sixteenth;
+	}
+}
+.trained {
+	background-color: $sixteenth;
+	height: 59px;
+	width: 37px;
+	border-radius: 100px;
+
+	padding-top: 2px;
+	padding-bottom: 6px;
+
+	margin: 0px 2px;
+}

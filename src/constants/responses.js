@@ -1,0 +1,3 @@
+export const BACK_RESPONSE = {
+    NO_MORE_EXERCISE: 'NO_MORE_EXERCISE'
+}

@@ -1,0 +1,13 @@
+@import '../../styles/variables.scss';
+
+.navbar-container {
+	max-width: 800px;
+	background-color: $tertiary;
+
+	height: 56px;
+
+	position: relative;
+	bottom: 0;
+
+	border-radius: 30px 30px 0px 0px;
+}

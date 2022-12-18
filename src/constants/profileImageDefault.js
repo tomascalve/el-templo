@@ -1,0 +1,1 @@
+export const PROFILE_IMAGE_DEFAULT = 'https://yca.org.ar/wp-content/uploads/sites/4/2019/06/perfil-avatar-hombre-icono-redondo_24640-14044.jpg';

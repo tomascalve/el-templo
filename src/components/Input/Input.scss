@@ -1,0 +1,77 @@
+@import '../../styles/variables.scss';
+
+.input-label {
+	margin-left: 20px;
+}
+
+.input {
+	height: 40px;
+	margin-left: 5px;
+	outline: none;
+	border: none;
+	background-color: transparent !important;
+
+
+
+	&::-webkit-calendar-picker-indicator {
+		opacity: 0;
+	}
+
+	&--hasIcon {
+		width: 70%;
+	}
+
+	&-state {
+		&--is-valid {
+			-webkit-text-fill-color: green;
+		}
+
+		&--is-invalid {
+			-webkit-text-fill-color: red;
+		}
+	}
+
+	&:focus {
+		border-color: inherit;
+		-webkit-box-shadow: none;
+		box-shadow: none;
+	}
+
+	&__content {
+		border-radius: 15px;
+		padding: 0px 0 0px 0;
+		box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.2);
+
+		&-state {
+			&--is-valid {
+				border: 1px solid green;
+				border-color: green;
+			}
+
+			&--is-invalid {
+				border: 1px solid red;
+				border-color: red;
+			}
+		}
+
+		&--transparent {
+			background-color: $eleventh;
+		}
+
+		&--general {
+			background-color: $nineth;
+		}
+	}
+
+	&-color {
+		&--transparent {
+			background-color: $nineth;
+
+			&:not(.input-state--is-invalid):not(.input-state--is-valid) {
+				-webkit-text-fill-color: $nineth;
+			}
+		}
+
+		// &--general {}
+	}
+}

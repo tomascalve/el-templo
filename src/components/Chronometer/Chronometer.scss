@@ -1,0 +1,48 @@
+@import '../../styles/variables.scss';
+
+.chronoContainer {
+	height: 162px;
+	width: 162px;
+	background-color: $nineth;
+	border-radius: 100px;
+	box-shadow: 0px 0px 10px 1px $shadow025;
+
+	// Make text unselectable
+	-webkit-user-select: none;
+	-moz-user-select: none;
+	-ms-user-select: none;
+	user-select: none;
+
+	.notRunning {
+		height: 100%;
+
+		.notRunning__play {
+			margin-top: 40px;
+			margin-left: 10px;
+		}
+		.notRunning__timer {
+			margin-bottom: 15px;
+
+			.notRunning__clock {
+				margin-right: 2px;
+				margin-bottom: 2px;
+			}
+		}
+	}
+
+	.running {
+		height: 100%;
+
+		.running__stop {
+			margin-bottom: 10px;
+		}
+		.running__timer {
+			margin-top: 50px;
+
+			.running__clock {
+				margin-right: 2px;
+				margin-bottom: 2px;
+			}
+		}
+	}
+}

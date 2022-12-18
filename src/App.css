@@ -1,0 +1,31 @@
+.App {
+	max-width: 800px;
+	display: flex;
+	justify-content: center;
+}
+
+.accordion-button:not(.collapsed)::after {
+	background-size: 15px;
+}
+.accordion-button::after {
+	background-size: 15px;
+}
+
+.container-fluid {
+	padding: 0;
+	margin: auto;
+}
+
+.z-index-master {
+	z-index: 9999;
+}
+
+/* .top-spacing {
+	margin-top: 50px;
+}
+
+@media screen and (min-width: 1000px) {
+	.top-spacing {
+		margin: 100px;
+	}
+} */

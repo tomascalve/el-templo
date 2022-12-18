@@ -1,0 +1,43 @@
+// Color Variables
+$primary: #293d55;
+$secondary: #ab8d74;
+$tertiary: #2e4f77;
+$fourth: #c59980;
+$fifth: #eedfbf;
+$sixth: #15212d;
+$sixthOpacity: #15212db2;
+$seventh: #566574;
+$eighth: #f8f5f0;
+$nineth: #ffffff;
+$tenth: #6e89aa;
+$eleventh: rgba(255, 255, 255, 0.6);
+$twelfth: rgba(224, 198, 168, 0.4);
+$thirteenth: #dee2e6;
+$fourtheenth: #dee2e6;
+$fifteenth: #ced4da;
+$sixteenth: #e0c6a8;
+$green: #4AA81F;
+
+// Shadow Variables
+$shadow025: rgba(0, 0, 0, 0.25);
+$shadow020: 0px 0px 10px rgba(0, 0, 0, 0.2);
+$shadow310: 0px 3px 10px rgba(0, 0, 0, 0.25);
+
+// Font Variables
+$font-1: 'Red Hat Display';
+$font-2: 'Red Hat Display Italic';
+$font-3: 'BoldPact';
+
+// Font Familys
+@font-face {
+	font-family: 'Red Hat Display';
+	src: url(../fonts/RedHatDisplay-VariableFont_wght.ttf);
+}
+@font-face {
+	font-family: 'Red Hat Display Italic';
+	src: url(../fonts/RedHatDisplay-Italic-VariableFont_wght.ttf);
+}
+@font-face {
+	font-family: 'BoldPact';
+	src: url(../fonts/BoldPact-Normal-font.ttf);
+}

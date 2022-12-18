@@ -1,0 +1,39 @@
+@import '../../styles/variables.scss';
+
+.exercise__container {
+	.title__container {
+		.totalTime {
+			margin-right: 20px;
+		}
+	}
+
+	.video-container {
+	}
+	.video-iframe {
+		height: 250px;
+		width: 100%;
+		position: unset;
+	}
+
+	.dropDownContainer {
+		margin-top: 18px;
+	}
+
+	// .chronometerContainer {
+	// }
+
+	.btnNext__container {
+		margin-top: 50px;
+		padding-right: 20px;
+
+		.btnNext__text {
+			margin-right: 8px;
+
+			// Make text unselectable
+			-webkit-user-select: none;
+			-moz-user-select: none;
+			-ms-user-select: none;
+			user-select: none;
+		}
+	}
+}
